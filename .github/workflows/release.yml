@@ -28,7 +28,7 @@ jobs:
 
       - name: Build project
         run: |
-          cd /home/runner/work/formcreator/
+          cd /home/runner/work/mantis/
           rm -r mantis/.git* mantis/tools mantis/README.md mantis/composer.*
           tar -zcvf mantis-${{ github.ref_name }}.tgz mantis
 
